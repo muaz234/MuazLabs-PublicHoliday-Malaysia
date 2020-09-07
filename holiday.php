@@ -22,8 +22,6 @@ try {
     {
         echo Psr7\str($e->getResponse());
     }
-
-
     die();
 }
 if($response->getStatusCode() == 200)
@@ -93,5 +91,5 @@ if($response->getStatusCode() == 200)
             }
         }
     }
-    echo json_encode(['success' => true, 'status' => 'success', 'Rows inserted' => $count], 201);
+    echo ($count > 0) ?  json_encode(['success' => true, 'status' => 'inserted success', 'Rows inserted' => $count], 201) : json_encode(['success' => false, 'status' => 'failed. please see your error logs' ], 500) ;
 }
