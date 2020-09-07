@@ -16,7 +16,7 @@ Then, ensure you have environment PHP 7.0 above with Apache web server configure
 ## Usage
 
 1. Create new MySQL database and run `example.sql`.
-2. Update your credentials at 'connect.php' that suit to your current environment
+2. Update your credentials at `connect.php` that suit to your current environment
 3. Then, register an account in [Calendarific](https://calendarific.com/) to receive an API key
 4. Paste the key in `$token` variable in `credentials.php` and execute the `holiday.php` script in your preferred browser
 5. Check the contents of the tables with listed public holidays in Malaysia
