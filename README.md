@@ -18,12 +18,16 @@ Then, ensure you have environment PHP 7.0 above with Apache web server configure
 1. Create new MySQL database and run `example.sql`.
 2. Update your credentials at `connect.php` that suit to your current environment
 3. Then, register an account in [Calendarific](https://calendarific.com/) to receive an API key
-4. Paste the key in `$token` variable in `credentials.php` and execute the `holiday.php` script in your preferred browser
-5. Check the contents of the tables with listed public holidays in Malaysia
+4. Paste the key in `$token` variable in `credentials.php`
+5. Run `composer install` in your local terminal, execute the `holiday.php` script in your preferred browser
+5. Open your MySQL database using any 3rd party tools(I am using MySQL Workbench), check the contents of the tables with listed public holidays in Malaysia
 
 ## Contributing
 Pull requests are welcome. Please read the docs on [GuzzlePHP](https://docs.guzzlephp.org/en/5.3/quickstart.html) or [Carbon](https://carbon.nesbot.com/) if required
 You may contact me via [email](mailto:ahmedmuaz0152@gmail.com)  or [Telegram](https://t.me/muaz234) for any discussion or improvement.
+
+## TODO
+Add unit testing features inside GuzzlePHP http call. Mocking a call for http and run php unit test if required.
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
