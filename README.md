@@ -1,7 +1,7 @@
 # Public Holiday
 
-This project is created to ease anyone who is looking for all declared public holiday in Malaysia. It utilize [Calendarific](https://calendarific.com/) data on Malaysia's public holiday.
-This project is initiated by me for using in my company project which use public holiday for counting processing working days in Malaysia
+This project is created to ease anyone who is need defined public holiday in Malaysia. It utilize [Calendarific](https://calendarific.com/) data on Malaysia's public holiday.
+This project is initiated by the author to use in my company project which use public holiday for counting document processing days in Malaysia based on working days which excludes public holiday besides weekend
 
 ## Installation
 
@@ -11,7 +11,7 @@ Clone the project at
 git clone https://github.com/muaz234/MuazLabs-PublicHoliday-Malaysia.git
 ```
 
-Then, ensure you have environment PHP 7.0 above with Apache web server configured and MySQL 5.7 above. Ensure Composer is installed to.
+Then, ensure you have environment PHP 7.0 above with Apache web server configured and MySQL 5.7 above. Ensure Composer is installed too.
 
 ## Usage
 
